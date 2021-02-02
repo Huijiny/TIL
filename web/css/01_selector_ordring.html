@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- 1. important: 거의 사용 안해
+       2. inline: 거의 사용 안해. 
+       3. id: 선호되진 않아.
+       4. class선택자: 얘만 사용하면 사용하기 훨씬 편해. 
+       5. 선택자 우선순위는 하나 지우고 맞추고 하나 지워보고 맞춰보고 하면 된다. -->
+  <style>
+    h2 {
+      /* 사용하지말자 */
+      color: darkviolet !important; 
+    }
+
+    p {
+      color: orange;
+    }
+    
+    .blue {
+      color: blue;
+    }
+
+    .green {
+      color: green;
+    }
+
+    #red {
+      color: red;
+    }
+  </style>
+</head>
+<body>
+  <p>1</p>
+  <p class="blue">2</p>
+  <p class="blue green">3</p>
+  <p class="green blue">4</p>
+  <p id="red" class="blue">5</p>
+  <h2 id="red" class="blue">6</h2>
+  <p id="red" class="blue" style="color: yellow;">7</p>
+  <h2 id="red" class="blue" style="color: yellow;">8</h2>
+</body>
+</html>
