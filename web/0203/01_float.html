@@ -24,20 +24,20 @@
       text-align: center;
       line-height: 150px;
     }
+
     .left {
-      float: left ;
+      float: left;
     }
 
-    /* ㅇㅣ 아래 애는 float때문에 깨지는것을 막기 위해서구나. */
     .clearfix::after {
       content: "";
       display: block;
-      clear: both
+      clear: both;
     }
   </style>
 </head>
 <body>
-  <header class=clearfix>
+  <header class="clearfix">
     <div class="box1 left">div</div>
   </header>
   <div class="box2">div</div>

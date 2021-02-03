@@ -36,30 +36,33 @@ p {
 }
 
 .card-header {
-  padding: 18px
+  padding: 18px;
 }
 
 .card-header-img {
   width: 100%;
   height: 330px;
+  display: block;
 }
 
 .card-header-description {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  height: 70px;
   background-color: green;
+  color: white;
+  height: 70px;
+  justify-content: center;
 }
 
 .card-body {
-  padding: 18px;
+  padding: 18px;;
 }
+
 .card-body-title {
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
+  align-items: center;
 }
 
 .card-body-description {
@@ -69,10 +72,11 @@ p {
 }
 
 .card-footer {
-  display: flex;
-  justify-content: flex-end;
   background-color: green;
-  align-items: center;
-  height: 50px;
   color: white;
+  display: flex;
+  height: 50px;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 10px;
 }
