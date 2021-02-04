@@ -1,0 +1,20 @@
+/* 아래에 코드를 작성하시오. */
+
+body {
+  padding: 70px;
+}
+ul {
+  list-style-type: none;
+}
+
+.height-70 {
+  height: 70px;
+}
+
+.main-img {
+  width: 100%;
+}
+
+.ft-img {
+  width: 30px;
+}
