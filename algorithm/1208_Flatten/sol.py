@@ -1,7 +1,7 @@
 import sys
 sys.stdin = open('input.txt')
 
-for tc in range(1, 11):
+for tc in range(1):
     dump = int(input())
     boxes = list(map(int, input().split()))
 
