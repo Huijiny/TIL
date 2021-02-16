@@ -1,27 +1,24 @@
 import sys
-
 sys.stdin = open("sample_input.txt")
-
-T = int(input())
 
 
 def binary_search(page, target):
     left = 1
     right = page
-    count = 1
+    count = 0
     while left <= right:
         mid = int((left + right) / 2)
         if mid == target:
             return count
         elif mid < target:
-            left = mid + 1
+            left = mid
             count += 1
         elif mid > target:
-            right = mid - 1
+            right = mid
             count += 1
 
 
-
+T = int(input())
 for tc in range(1, T + 1):
     page, A, B = map(int, input().split())
 
