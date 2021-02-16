@@ -11,12 +11,9 @@ for tc in range(1, T+1):
         matrix.append(list(m_row))
     matrix[0][0] = 1
     round = 1
-    row = 0
-    col = 0
-    left = 0
+    row, col = 0
+    left, up, down = 0
     right = 1
-    up = 0
-    down = 0
     for i in range(2, (N*N)+1):
         if right and row <= N-round:
             row += 1
@@ -42,7 +39,6 @@ for tc in range(1, T+1):
                 right = 1
         matrix[col][row] = i
 
-    # 만약에 row가
     print("#{}".format(tc))
     for col in range(N):
         for row in range(N):
