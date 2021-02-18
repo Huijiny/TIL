@@ -1,9 +1,7 @@
 import sys
-
 sys.stdin = open("GNS_test_input.txt")
 
 T = int(input())
-
 for tc in range(1, T + 1):
     case, n = input().split()
     arr = input().split()
