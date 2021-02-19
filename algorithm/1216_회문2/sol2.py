@@ -42,15 +42,15 @@ def manacher(s):
 
 length = 100
 T = 10
-max_ = 1
+maximum = 1
 for tc in range(1, T+1):
     case = int(input())
     matrix = [input() for _ in range(length)]
 
     for row_list in matrix:
         max_tmp = manacher(row_list)
-        if max_ < max_tmp:
-            max = max_tmp
+        if maximum < max_tmp:
+            maximum = max_tmp
 
     col_matrix = []
     col_list = ''
@@ -62,11 +62,11 @@ for tc in range(1, T+1):
 
     for col_list in col_matrix:
         max_tmp = manacher(col_list)
-        if max_ < max_tmp:
-            max = max_tmp
+        if maximum < max_tmp:
+            maximum = max_tmp
 
 
-    print("#{} {}".format(tc,))
+    print("#{} {}".format(tc, maximum))
 
 
 

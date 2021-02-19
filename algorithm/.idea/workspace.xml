@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7c8f63c-488c-40c8-b828-c53112518bb1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/1216_회문2/sol2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4861_회문/sol2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4864_문자열비교/sol2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1979_어디에단어가들어갈수있을까/sol2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5356_의석이의세로로말해요/sample_input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5356_의석이의세로로말해요/sol.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4864_문자열비교/sol.py" beforeDir="false" afterPath="$PROJECT_DIR$/4864_문자열비교/sol.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/회문2/input (3).txt" beforeDir="false" afterPath="$PROJECT_DIR$/1216_회문2/input (3).txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/회문2/sol.py" beforeDir="false" afterPath="$PROJECT_DIR$/1216_회문2/sol.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1216_회문2/sol2.py" beforeDir="false" afterPath="$PROJECT_DIR$/1216_회문2/sol2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,14 +86,14 @@
       <recent name="Z:\Desktop\ssafy\TIL\algorithm" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/5356_의석이의세로로말해요" />
       <recent name="$PROJECT_DIR$/회문2" />
       <recent name="$PROJECT_DIR$/5432_쇠막대기자르기" />
       <recent name="$PROJECT_DIR$/3134_가장빠른문자열타이핑" />
       <recent name="$PROJECT_DIR$/4865_글자수" />
-      <recent name="$PROJECT_DIR$/4861_회문" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.sol2">
+  <component name="RunManager" selected="Python.sol (2)">
     <configuration name="sol (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -104,11 +102,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/3134_가장빠른문자열타이핑" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1216_회문2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3134_가장빠른문자열타이핑/sol.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1216_회문2/sol.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -125,32 +123,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/4861_회문" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/5356_의석이의세로로말해요" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/4861_회문/sol.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="sol (5)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/회문2" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/회문2/sol.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/5356_의석이의세로로말해요/sol.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -172,6 +149,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/5432_쇠막대기자르기/sol.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sol2 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1979_어디에단어가들어갈수있을까" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1979_어디에단어가들어갈수있을까/sol2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -203,11 +201,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.sol2" />
-        <item itemvalue="Python.sol" />
-        <item itemvalue="Python.sol (5)" />
         <item itemvalue="Python.sol (2)" />
+        <item itemvalue="Python.sol2" />
         <item itemvalue="Python.sol (1)" />
+        <item itemvalue="Python.sol2 (1)" />
+        <item itemvalue="Python.sol" />
       </list>
     </recent_temporary>
   </component>
