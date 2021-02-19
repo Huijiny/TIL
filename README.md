@@ -2,3 +2,4 @@
 
 * python
 * web
+* algorithm
