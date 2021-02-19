@@ -6,11 +6,8 @@ def solution(s, l):
         if l[i:i+len(s)] == s:
             return 1
     return 0
-# def solution(s, l):
-#     if s in l:
-#         return 1
-#     else:
-#         return 0
+
+
 T = int(input())
 for tc in range(1, T + 1):
     short = input()
