@@ -28,7 +28,7 @@ def manacher(s):
         idx - cnt_list[idx] - 1 => 미지의 왼쪽
         idx + cnt_list[idx] + 1=> 미지의 오른쪽
         """
-        while idx - cnt_list[idx] >= 0 and idx + cnt_list[idx] < N and\
+        while idx - cnt_list[idx] -1 > 0 and idx + cnt_list[idx] + 1 < N and\
                 s[idx - cnt_list[idx] - 1] == s[idx + cnt_list[idx] + 1]:
             cnt_list[idx] += 1
 
@@ -42,8 +42,9 @@ def manacher(s):
 
 length = 100
 T = 10
-maximum = 1
+
 for tc in range(1, T+1):
+    maximum = 1
     case = int(input())
     matrix = [input() for _ in range(length)]
 

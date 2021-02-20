@@ -10,7 +10,10 @@ for tc in range(1, T+1):
         matrix.append(input())
 
     def is_palindrome(word):
-        return word == word[::-1]
+        for idx in range(len(word)//2):
+            if word[idx] != word[-idx-1]:
+                return False
+        return True
 
     def check_max(word, max_tmp):
         if is_palindrome(word):
