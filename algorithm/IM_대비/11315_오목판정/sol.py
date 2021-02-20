@@ -26,14 +26,14 @@ def solution(N, board):
             # 가로
             if board[i][j] == 'o':
                 count_r += 1
-                if count_r >= 5:
+                if count_r == 5:
                     return "YES"
             else:
                 count_r = 0
             # 세로
             if board[j][i] == 'o':
                 count_c += 1
-                if count_c >= 5:
+                if count_c == 5:
                     return "YES"
             else:
                 count_c = 0
