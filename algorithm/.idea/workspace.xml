@@ -2,19 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7c8f63c-488c-40c8-b828-c53112518bb1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/0222_1/1번_input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0222_1/Algo1_서울_4반_유희진.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0222_2/2번_input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0222_2/Algo2_서울_4반_유희진.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4837_부분집합의_합_(비트연산)/sol2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IM_대비/1961_숫자배열회전/input (3).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IM_대비/1961_숫자배열회전/sol.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/p_stack_01/stack.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/algorithm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/algorithm.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4866_괄호검사/sample_input (1).txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4866_괄호검사/sol.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4871_그래프경로/sample_input (1).txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4871_그래프경로/sol.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4837_부분집합의_합_(비트연산)/sol.py" beforeDir="false" afterPath="$PROJECT_DIR$/4837_부분집합의_합_(비트연산)/sol.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IM_대비/11315_오목판정/sample_input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/IM_대비/11315_오목판정/sample_input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IM_대비/11315_오목판정/sol.py" beforeDir="false" afterPath="$PROJECT_DIR$/IM_대비/11315_오목판정/sol.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,19 +97,19 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="Z:\Desktop\ssafy\TIL\algorithm\0222_1" />
-      <recent name="$PROJECT_DIR$/IM_대비/1961_숫자배열회전" />
-      <recent name="$PROJECT_DIR$/IM_대비/3499_퍼펙트셔플" />
-      <recent name="$PROJECT_DIR$/IM_대비" />
-      <recent name="$PROJECT_DIR$/IM_대비/1289_원재의메모리복구" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="Z:\Desktop\ssafy\TIL\algorithm\0222_2" />
       <recent name="Z:\Desktop\ssafy\TIL\algorithm" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/4871_그래프경로" />
+      <recent name="$PROJECT_DIR$/4866_괄호검사" />
+      <recent name="Z:\Desktop\ssafy\TIL\algorithm\0222_1" />
+      <recent name="$PROJECT_DIR$/IM_대비/1961_숫자배열회전" />
+      <recent name="$PROJECT_DIR$/IM_대비/3499_퍼펙트셔플" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.Algo2_서울_4반_유희진">
+  <component name="RunManager" selected="Python.sol (1)">
     <configuration name="Algo1_서울_4반_유희진" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -160,7 +152,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="sol (3)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="sol (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -168,11 +160,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/IM_대비/11315_오목판정" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/4866_괄호검사" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/IM_대비/11315_오목판정/sol.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/4866_괄호검사/sol.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -224,19 +216,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.sol (3)" />
       <item itemvalue="Python.sol2" />
       <item itemvalue="Python.sol" />
       <item itemvalue="Python.Algo1_서울_4반_유희진" />
       <item itemvalue="Python.Algo2_서울_4반_유희진" />
+      <item itemvalue="Python.sol (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.sol (1)" />
         <item itemvalue="Python.Algo2_서울_4반_유희진" />
         <item itemvalue="Python.Algo1_서울_4반_유희진" />
         <item itemvalue="Python.sol2" />
         <item itemvalue="Python.sol" />
-        <item itemvalue="Python.sol (3)" />
       </list>
     </recent_temporary>
   </component>
