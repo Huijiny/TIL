@@ -4,23 +4,14 @@ sys.stdin = open("sample_input.txt")
 
 
 def solution(N, board):
-    count_rl = count_lr = 0
     for i in range(N):
-        # 대각선.
-        if board[i][i] == 'o':
-            count_lr += 1
-            if count_lr == 5:
-                return "YES"
-        else:
-            count_lr = 0
-
-        if board[i][N-i-1] == 'o':
-            count_rl += 1
-            if count_rl == 5:
-                return "YES"
-        else:
-            count_rl = 0
-
+        for j in range(N):
+            if board[i][j] == 'o':
+                if j + 4 < N and i + 4 < N and board[i+1][j+1] =='o' and board[i+2][j+2]=='o' and board[i+3][j+3] == 'o' and board[i+4][j+4] == 'o':
+                    return "YES"
+                if i + 4 < N and j - 4 >= 0  and board[i+1][j-1] == 'o' and board[i+2][j-2]=='o' and board[i+3][j-3] == 'o' and board[i+4][j-4] == 'o':
+                    return "YES"
+    for i in range(N):
         count_r = count_c = 0
         for j in range(N):
             # 가로
