@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7c8f63c-488c-40c8-b828-c53112518bb1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/2005_파스칼의삼각형/input (3).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2005_파스칼의삼각형/sol.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1234_비밀번호 /input (3).txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1234_비밀번호 /sol.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4869_종이붙이기/sample_input (1).txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4869_종이붙이기/sol.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4873_반복문자지우기/sample_input (1).txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4873_반복문자지우기/sol.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4871_그래프경로/sol.py" beforeDir="false" afterPath="$PROJECT_DIR$/4871_그래프경로/sol.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,56 +105,14 @@
       <recent name="Z:\Desktop\ssafy\TIL\algorithm" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/1234_비밀번호 " />
+      <recent name="$PROJECT_DIR$/4869_종이붙이기" />
+      <recent name="$PROJECT_DIR$/4873_반복문자지우기" />
       <recent name="$PROJECT_DIR$/2005_파스칼의삼각형" />
       <recent name="$PROJECT_DIR$/4871_그래프경로" />
-      <recent name="$PROJECT_DIR$/4866_괄호검사" />
-      <recent name="Z:\Desktop\ssafy\TIL\algorithm\0222_1" />
-      <recent name="$PROJECT_DIR$/IM_대비/1961_숫자배열회전" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.sol (2)">
-    <configuration name="Algo1_서울_4반_유희진" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/0222_1" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/0222_1/Algo1_서울_4반_유희진.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Algo2_서울_4반_유희진" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/0222_2" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/0222_2/Algo2_서울_4반_유희진.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.sol (4)">
     <configuration name="sol (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -192,7 +155,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="sol2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="sol (3)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -200,11 +163,53 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/4837_부분집합의_합_(비트연산)" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/4871_그래프경로" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/4837_부분집합의_합_(비트연산)/sol2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/4871_그래프경로/sol.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sol (4)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1234_비밀번호 " />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1234_비밀번호 /sol.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sol" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/4873_반복문자지우기" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/4873_반복문자지우기/sol.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -214,19 +219,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.sol2" />
-      <item itemvalue="Python.Algo1_서울_4반_유희진" />
-      <item itemvalue="Python.Algo2_서울_4반_유희진" />
       <item itemvalue="Python.sol (1)" />
       <item itemvalue="Python.sol (2)" />
+      <item itemvalue="Python.sol" />
+      <item itemvalue="Python.sol (3)" />
+      <item itemvalue="Python.sol (4)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.sol (4)" />
+        <item itemvalue="Python.sol (3)" />
+        <item itemvalue="Python.sol" />
         <item itemvalue="Python.sol (2)" />
         <item itemvalue="Python.sol (1)" />
-        <item itemvalue="Python.Algo2_서울_4반_유희진" />
-        <item itemvalue="Python.Algo1_서울_4반_유희진" />
-        <item itemvalue="Python.sol2" />
       </list>
     </recent_temporary>
   </component>
