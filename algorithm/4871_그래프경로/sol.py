@@ -19,6 +19,11 @@ def dfs(V, matrix, S, G):
     return result
 T = int(input())
 
+def dfs_c(v):
+    visited[v] = True
+    for new_v in graph[v]:
+        if not visited[new_v]:
+            dfs(new_v)
 
 for tc in range(1, T+1):
 
