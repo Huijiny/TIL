@@ -19,6 +19,7 @@ def dfs(V, matrix, S, G):
     return result
 T = int(input())
 
+
 for tc in range(1, T+1):
 
     V, E = list(map(int, input().split()))
@@ -28,7 +29,7 @@ for tc in range(1, T+1):
         matrix[f-1][t-1] = 1
     S, G = list(map(int, input().split()))
     # 여기서 이제 어디갔다가 어디갔다가 어디가는지 찾아야함.
-
+    stack = [S]
     print("#{} {}".format(tc, dfs(V, matrix, S, G)))
 
 
