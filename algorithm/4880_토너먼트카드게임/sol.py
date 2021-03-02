@@ -26,6 +26,8 @@ def divide(start, end):
         first = divide(start, (start+end)//2)
         second = divide((start+end)//2+1, end)
         return get_winner(first, second)
+
+
 T = int(input())
 for tc in range(1, T+1):
     N = int(input())
