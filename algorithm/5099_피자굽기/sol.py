@@ -6,24 +6,17 @@ T = int(input())
 for tc in range(1, T+1):
     size, pizza_count = map(int, input().split())
     chesse_amount = list(map(int, input().split()))
-
-    hwaduk = [0] * size
-    hwaduk_check = [[] for _ in range(len(chesse_amount))]
-    for i in range(len(chesse_amount)):
-        hwaduk_check[i].append(chesse_amount[i])
-    for j in range(size):
-        hwaduk[j] = j
-    i = 0
-    current = size-1
+    pizza_check = [i for i in range(len(chesse_amount))]
+    hwaduk = pizza_check[0:size]
+    current = size - 1
     while len(hwaduk) != 1:
-        print(hwaduk_check[hwaduk[i]][0])
-        hwaduk_check[hwaduk[i]][0] = hwaduk_check[hwaduk[i]][0] // 2
-        if hwaduk_check[hwaduk[i]][0] <= 0:
-            hwaduk[i] = current + 1
-            hwaduk_check[i] = [chesse_amount[hwaduk[i]]]
-            if current != len(chesse_amount) -1:
-                current += 1
-            else:
-                hwaduk_check.pop(0)
-        i = (i + 1) % size
-    print("#{} {}".format(tc, hwaduk[i]))
+        pizza_idx = hwaduk.pop(0)# 하나를 일단 뽑아
+        chesse_amount[pizza_idx] = chesse_amount[pizza_idx] // 2 # 치즈량을 계산하고
+        if chesse_amount[pizza_idx] <= 0 : # 치즈량이 0 이하면 빼고 다음걸 넣고
+            current += 1
+            if current < len(chesse_amount):
+                hwaduk.append(pizza_check[current])
+        else: # 아니면 그대로 append
+            hwaduk.append(pizza_idx)
+
+    print("#{} {}".format(tc, hwaduk.pop(0) + 1))

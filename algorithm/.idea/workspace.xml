@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7c8f63c-488c-40c8-b828-c53112518bb1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/1226_미로1/input (4).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1226_미로1/sol.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5099_피자굽기/sample_input (1).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5099_피자굽기/sol.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5102_노드의거리/sample_input (1).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5102_노드의거리/sol.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/5099_피자굽기/sol.py" beforeDir="false" afterPath="$PROJECT_DIR$/5099_피자굽기/sol.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +106,7 @@
       <recent name="$PROJECT_DIR$/5097_회전" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.sol (4)">
+  <component name="RunManager" selected="Python.sol (2)">
     <configuration name="sol (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -226,9 +221,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.sol (2)" />
         <item itemvalue="Python.sol (4)" />
         <item itemvalue="Python.sol (3)" />
-        <item itemvalue="Python.sol (2)" />
         <item itemvalue="Python.sol" />
         <item itemvalue="Python.sol (1)" />
       </list>
@@ -295,21 +290,6 @@
           <url>file://$PROJECT_DIR$/2001_파리퇴치/sol.py</url>
           <line>18</line>
           <option name="timeStamp" value="43" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/5099_피자굽기/sol.py</url>
-          <line>16</line>
-          <option name="timeStamp" value="45" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/5099_피자굽기/sol.py</url>
-          <line>19</line>
-          <option name="timeStamp" value="46" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/5099_피자굽기/sol.py</url>
-          <line>22</line>
-          <option name="timeStamp" value="47" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/5102_노드의거리/sol.py</url>
