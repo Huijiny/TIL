@@ -21,4 +21,3 @@ for tc in range(1, T+1):
 
     print("#{} {}".format(tc, ' '.join(list(map(str,queue)))))
 
-    # 기차충돌시간t  * 파리의속도 v
