@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7c8f63c-488c-40c8-b828-c53112518bb1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/5097_회전/sample_input (1).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5097_회전/sol.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5105_미로의거리/sample_input (1).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5105_미로의거리/sol.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1226_미로1/input (4).txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1226_미로1/sol.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5099_피자굽기/sample_input (1).txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5099_피자굽기/sol.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5102_노드의거리/sample_input (1).txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5102_노드의거리/sol.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1225_암호생성기/sol.py" beforeDir="false" afterPath="$PROJECT_DIR$/1225_암호생성기/sol.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4871_그래프경로/sol.py" beforeDir="false" afterPath="$PROJECT_DIR$/4871_그래프경로/sol.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,56 +104,14 @@
       <recent name="Z:\Desktop\ssafy\TIL\algorithm" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/1226_미로1" />
+      <recent name="$PROJECT_DIR$/5102_노드의거리" />
+      <recent name="$PROJECT_DIR$/5099_피자굽기" />
       <recent name="$PROJECT_DIR$/5105_미로의거리" />
       <recent name="$PROJECT_DIR$/5097_회전" />
-      <recent name="$PROJECT_DIR$/6019_기차사이파리" />
-      <recent name="$PROJECT_DIR$/1225_암호생성기" />
-      <recent name="$PROJECT_DIR$/boj_1260" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.sol">
-    <configuration name="bfs" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/boj_1260" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/boj_1260/bfs.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="dfs" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/boj_1260" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/boj_1260/dfs.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.sol (4)">
     <configuration name="sol (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -175,6 +133,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="sol (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/5099_피자굽기" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/5099_피자굽기/sol.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="sol (3)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -183,11 +162,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/6019_기차사이파리" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/5102_노드의거리" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/6019_기차사이파리/sol.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/5102_노드의거리/sol.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sol (4)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1226_미로1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1226_미로1/sol.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -218,19 +218,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.bfs" />
-      <item itemvalue="Python.dfs" />
-      <item itemvalue="Python.sol (3)" />
       <item itemvalue="Python.sol (1)" />
       <item itemvalue="Python.sol" />
+      <item itemvalue="Python.sol (2)" />
+      <item itemvalue="Python.sol (3)" />
+      <item itemvalue="Python.sol (4)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.sol (4)" />
+        <item itemvalue="Python.sol (3)" />
+        <item itemvalue="Python.sol (2)" />
         <item itemvalue="Python.sol" />
         <item itemvalue="Python.sol (1)" />
-        <item itemvalue="Python.bfs" />
-        <item itemvalue="Python.dfs" />
-        <item itemvalue="Python.sol (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -295,6 +295,31 @@
           <url>file://$PROJECT_DIR$/2001_파리퇴치/sol.py</url>
           <line>18</line>
           <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/5099_피자굽기/sol.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/5099_피자굽기/sol.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/5099_피자굽기/sol.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/5102_노드의거리/sol.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/5102_노드의거리/sol.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="56" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
