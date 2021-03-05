@@ -1,5 +1,6 @@
 import sys
 sys.stdin = open("sample_input (1).txt")
+# Q(to_visits)에 넣는 순간 방문 완료로 판
 def bfs(G, start):
     visited = [0] * (V + 1)
     distance = [0] * (V + 1)
@@ -9,6 +10,7 @@ def bfs(G, start):
         t = queue.pop(0)
         for i in G[t]:
             if not visited[i]:
+                # i는 이미 방문 완료로 판별 & 거리 측정.
                 queue.append(i)
                 visited[i] = True
                 distance[i] = distance[t] + 1
