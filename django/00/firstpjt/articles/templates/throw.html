@@ -2,7 +2,7 @@
 
 {% block content %}
   <h1>THROW</h1>
-  <form action="/catch/" mathod="GET">
+  <form action="{% url 'catch' %}" mathod="GET">
     <label for="message">Throw: </label>
     <input type="text" name="message" id="message">
     <input type="submit">
