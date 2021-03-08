@@ -32,6 +32,13 @@ def throw(request):
 def catch(request):
     message = request.GET.get('message')
     context = {
-        'message': message
+        'message': message,
     }
     return render(request, 'catch.html', context)
+
+def hello(request, name):
+    context = {
+        'name': name,
+    }
+    return render(request, 'hello.html', context)
+    
