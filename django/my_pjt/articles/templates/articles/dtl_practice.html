@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>DTL_practice</h1>
+  <h2>1. for tag</h2>
+  {% for food in foods %}
+    <p>{{ food }}</p>
+  {% endfor %}
+<hr>
+  {% for food in foods %}
+    <p>{{ forloop.counter0 }} {{ food }}</p>
+  {% endfor %}
+<hr>
+  {% for element in empty_list %}
+    {{element}}
+  {% empty %}
+    <p>현재 가입한 유저가 없습니다.</p>
+  {% endfor %}
+  <hr>
+
+  <h2>2. if tag</h2>
+  {% if '짜장면' in foods %}
+    <p>짜장면은 역시 간짜장!!</p>
+  {% else %}
+    <p>짜장면이 메뉴에 없어!!</p>
+  {% endif %}
+
+  {% for food in foods %}
+    {% if forloop.first %}
+      <p>장충동 왕족발</p>
+    {% else %}
+      <p>{{ food }} </p>
+    {% endif %}
+  {% endfor %}
+  <hr>
+
+  <h2>3. filter 활용</h2>
+  {% for fruit in fruits %}
+    {% if fruit|length > 5%}
+      <p>이름이 너무 길어요!</p>
+    {% else %}
+      <p>{{ fruit }}. {{ fruit|length }}입니다.</p>
+    {% endif %}
+  {% endfor %}
+  <hr>
+
+  <h2>4. lorem ipsum</h2>
+  {% lorem %}
+  <hr>
+  {% lorem 3 w %}
+  <hr>
+  {% lorem 4 w random %}
+  <hr>
+  {% lorem 2 p random %}
+  <hr>
+
+  <h2>5. 글자 관련 filter</h2>
+  <p>{{ 'ABC'|lower }}</p>
+  <p>{{ my_sentence|title }}</p>
+  <p>{{ foods|random }}</p>
+  <hr>
+
+  <h2>6. 연산</h2>
+  <p>{{ 4|add:6 }}</p>
+  <hr>
+
+  <h2>7. 날짜 표현</h2>
+  {% now "DATE_FORMAT" %}
+  {% now "DATETIME_FORMAT" %} <br>
+  {% now "SHORT_DATE_FORMAT" %} <br>
+  {% now "SHORT_DATETIME_FORMAT" %} <br>
+  {% now "Y년 m월 d일 (D) h:i" %}
+  <hr>
+  Copyright {% now "Y" %}
+  <hr>
+  {% now "Y" as current_year %}
+  <p>이후로는 이렇게 변수로 사용 가능 {{ current_year }}</p>
+  
+</body>
+</html>
