@@ -3,7 +3,11 @@ from .models import Article
 
 
 def index(request):
-    articles = Article.objects.all()
+    # 1.DB에 있는 순서를 파이썬이 변경
+    # articles = Article.objects.all()[::-1]
+    # 2. 처음부터 DB가 변경
+    articles = Article.objects.order_by('-pk')
+
     context = {
         'articles': articles,
     }
@@ -15,8 +19,8 @@ def new(request):
 
 
 def create(request):
-    title = request.GET.get('title')
-    content = request.GET.get('content')
+    title = request.POST.get('title')
+    content = request.POST.get('content')
 
     # 1.
     # article = Article()
@@ -36,4 +40,4 @@ def create(request):
         'content': content,
     }
 
-    return render(request, 'articles/create.html', context)
+    return render(request, 'articles/index.html', context)
