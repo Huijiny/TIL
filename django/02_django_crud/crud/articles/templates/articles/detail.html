@@ -9,5 +9,9 @@
   <p>작성시각: {{ article.created_at }}</p>
   <p>수정시각: {{ article.updated_at }}</p>
   <hr>
+  <form action="{% url 'articles:delete' article.pk %}" method="POST">
+    {% csrf_token %}
+    <button class="btn btn-danger">DELETE</button>
+  </form>
   <a href="{% url 'articles:index' %}">[back]</a>
 {% endblock content %}

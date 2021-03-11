@@ -52,3 +52,11 @@ def detail(request, pk):
     }
     return render(request, 'articles/detail.html', context)
     
+
+def delete(request, pk):
+    article = Article.objects.get(pk=pk)
+    if request.method =='POST':
+        article.delete()
+        return redirect('articles:index')
+    return redirect('articles:detail', article.pk)
+
