@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from .models import Article
 
 
@@ -40,4 +40,15 @@ def create(request):
         'content': content,
     }
 
-    return render(request, 'articles/index.html', context)
+    # return redirect(f'/articles/{article.pk}/')
+    return redirect('articles:detail', article.pk)
+
+
+def detail(request, pk):
+    # 몇 번 글을 조회할건지 가져와야함.
+    article = Article.objects.get(pk=pk)
+    context = {
+        'article': article,
+    }
+    return render(request, 'articles/detail.html', context)
+    
