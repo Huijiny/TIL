@@ -60,3 +60,23 @@ def delete(request, pk):
         return redirect('articles:index')
     return redirect('articles:detail', article.pk)
 
+
+def edit(request, pk):
+    article = Article.objects.get(pk=pk)
+    # 수정할 게시글 조회
+    context = {
+        'article': article,
+    }
+    return render(request, 'articles/edit.html', context)
+
+
+def update(request, pk):
+    # 수정될 게시글 조회
+    article = Article.objects.get(pk=pk)
+
+    # edit으로부터 수정 데이터 받아서 수정 진행
+    article.title = request.POST.get('title')
+    article.content = request.POST.get('content')
+    article.save()
+
+    return redirect('articles:detail', article.pk)
