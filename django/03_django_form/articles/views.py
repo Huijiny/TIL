@@ -1,5 +1,6 @@
 from django.shortcuts import render, redirect
 from .models import Article
+from .forms import ArticleForm
 
 # Create your views here.
 def index(request):
@@ -16,32 +17,25 @@ def index(request):
     return render(request, 'articles/index.html', context)
 
 
-def new(request):
-    return render(request, 'articles/new.html')
-
-
+# 하나의 view함수가 request의 method에 따라서 2가지 역할을 하게 됨.
 def create(request):
-    # 1. new로 부터 받은 데이터를 저장
-    title = request.POST.get('title')
-    content = request.POST.get('content')
+    if request.method == 'POST':
+        # create
+        form = ArticleForm(request.POST)
+        if form.is_valid():
+            article = form.save()
+            return redirect('articles:detail', article.pk)
+    # POST가 아닌 다른 method
+    else:
+        form = ArticleForm()
+    context = {
+        # 상황에 따른 2가지 모습
+        # 1. is_valid에서 내려온 form:
+        # 2. else에서 내려온 form - 빈 폼
+        'form': form,
+    }
+    return render(request, 'articles/create.html', context)
 
-    # 2. 저장한 데이터를 DB에 저장
-    # 2-1
-    # article = Article()
-    # article.title = title
-    # article.content = content
-    # article.save()
-
-    # 2-2
-    article = Article(title=title, content=content)
-    article.save()
-
-    # 2-3
-    # Article.objects.create(title=title, content=content)
-
-    # return redirect('/articles/index/')
-    # return redirect(f'/articles/{article.pk}/')
-    return redirect('articles:detail', article.pk)
 
 
 def detail(request, pk):
@@ -64,22 +58,19 @@ def delete(request, pk):
         return redirect('articles:detail', article.pk)
 
 
-def edit(request, pk):
-    # 수정할 게시글 조회
-    article = Article.objects.get(pk=pk)
+def update(request, pk):
+    article = Article.objects.get(pk=pk) 
+    # update
+    if request.method == 'POST':
+        form = ArticleForm(data=request.POST, instance=article)
+        if form.is_valid():
+            form.save()
+            return redirect('articles:detail', article.pk)
+    else:
+        form = ArticleForm(instance=article)
+
     context = {
+        'form': form,
         'article': article,
     }
-    return render(request, 'articles/edit.html', context)
-
-
-def update(request, pk):
-    # 수정될 게시글 조회
-    article = Article.objects.get(pk=pk)
-
-    # edit으로부터 수정되는 데이터 받아서 수정 진행
-    article.title = request.POST.get('title')
-    article.content = request.POST.get('content')
-    article.save()
-
-    return redirect('articles:detail', article.pk)
+    return render(request, 'articles/update.html', context)
