@@ -1,6 +1,7 @@
 from django import forms
 from .models import Article
 
+
 # class ArticleForm(forms.Form):
 #     REGION_A = 'sl'
 #     REGION_B = 'dj'
@@ -12,6 +13,7 @@ from .models import Article
 #         (REGION_C, '광주'),
 #         (REGION_D, '구미'),
 #     ]
+
 #     title = forms.CharField(max_length=10)
 #     content = forms.CharField(widget=forms.Textarea)
 #     region = forms.ChoiceField(choices=REGION_CHOICES, widget=forms.RadioSelect)
@@ -21,7 +23,7 @@ class ArticleForm(forms.ModelForm):
         label='제목',
         widget=forms.TextInput(
             attrs={
-                'class': 'my-title',
+                'class': 'my-title form-control',
                 'placeholder': 'Enter the Title',
                 'maxlength': 10,
             }
@@ -31,18 +33,20 @@ class ArticleForm(forms.ModelForm):
         label='내용',
         widget=forms.Textarea(
             attrs={
-                'class': 'my-content',
-                'placeholder': 'Enter the content',
+                'class': 'my-content form-control',
+                'placeholder': 'Enter the Content',
                 'rows': 5,
                 'cols': 30,
             }
         ),
         error_messages={
-            'required': '데이터를 입력해줄래..?',
-        },
+            'required': '데이터를 입력해줄래...?',
+        }
     )
-# model form이 있으면 유효성 검사를 자동으로 할 수 있다.
+
+
     class Meta:
         model = Article
         fields = '__all__'
-        # exclude = ('title',) 
+        # exclude = ('title',)
+
