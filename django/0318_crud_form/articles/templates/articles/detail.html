@@ -9,7 +9,7 @@
   <p>글 생성시각: {{ article.created_at }}</p>
   <p>글 수정시각: {{ article.updated_at }}</p>
 
-  <a href="#">EDIT</a>
+  <a href="{% url 'articles:update' article.pk %}">EDIT</a>
   <form action="#" method="POST">
     <a href="#">DELETE</a>
   </form>
