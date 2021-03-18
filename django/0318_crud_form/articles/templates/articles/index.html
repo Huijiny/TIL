@@ -3,5 +3,11 @@
 {% block content %}
   <h2>Articles</h2>
   <a href="#">NEW</a>
-  
+  <hr>
+  {% for article in articles %}
+    <h2>{{ article.pk }}</h2> 
+    <h2>{{ article.title }}</h2>
+    <a href="#">DETAIL</a>
+    <hr>
+  {% endfor %}
 {% endblock content %}
