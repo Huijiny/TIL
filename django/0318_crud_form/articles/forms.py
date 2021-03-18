@@ -8,8 +8,10 @@ class ArticleForm(forms.ModelForm):
     content = forms.CharField(
         label='content',
         widget=forms.Textarea(
-            'cols': 30,
-            'rows': 5,
+            attrs={
+                'rows': 5,
+                'cols': 30,
+            }
         )
     )
     class Meta:

@@ -2,7 +2,7 @@
 
 {% block content %}
   <h2>Articles</h2>
-  <a href="#">NEW</a>
+  <a href="{% url 'articles:create' %}">NEW</a>
   <hr>
   {% for article in articles %}
     <h2>{{ article.pk }}</h2> 
