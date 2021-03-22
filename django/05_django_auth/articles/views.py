@@ -39,6 +39,7 @@ def detail(request, pk):
     return render(request, 'articles/detail.html', context)
 
 
+
 @require_POST
 def delete(request, pk):
     if request.user.is_authenticated:
