@@ -1,11 +1,19 @@
 from django.shortcuts import render, redirect
 from django.contrib.auth import login as auth_login
 from django.contrib.auth import logout as auth_logout
-from django.views.decorators.http import require_POST
-from django.contrib.auth.forms import AuthenticationForm, UserCreationForm, UserChangeForm
+from django.views.decorators.http import require_POST, require_http_methods
+from django.contrib.auth.decorators import login_required
+from django.contrib.auth import update_session_auth_hash
+from django.contrib.auth.forms import (
+    AuthenticationForm, 
+    UserCreationForm, 
+    PasswordChangeForm,
+)
+
 from .forms import CustomUserChangeForm
 
 # Create your views here.
+@require_http_methods(['GET', 'POST'])
 def login(request):
     if request.user.is_authenticated:
         return redirect('articles:index')
@@ -23,13 +31,14 @@ def login(request):
     }
     return render(request, 'accounts/login.html', context)
 
-
 @require_POST
 def logout(request):
-    auth_logout(request)
+    if request.user.is_authenticated:
+        auth_logout(request)
     return redirect('articles:index')
 
 
+@require_http_methods(['GET', 'POST'])
 def signup(request):
     if request.user.is_authenticated:
         return redirect('articles:index')
@@ -59,6 +68,7 @@ def delete(request):
     return redirect('articles:index')
     
 
+@require_http_methods(['GET', 'POST'])
 def update(request):
     if request.method == 'POST':
         form = CustomUserChangeForm(request.POST, instance=request.user)
@@ -74,6 +84,7 @@ def update(request):
 
 from django.contrib.auth import get_user_model
 
+
 def userlist(request):
     User = get_user_model()
     users = User.objects.all()
@@ -83,17 +94,19 @@ def userlist(request):
     }
     return render(request, 'accounts/userlist.html', context)
 
-# def signup(request):
-    
-#     if request.method == 'POST':
-#         form = UserCreationForm(request.POST)
-#         if form.is_valid():
-#             user = form.save()
-#             auth_login(request, user)
-#             return redirect('accounts:index')
-#     else:
-#         form = UserCreationForm()
-#     context = {
-#         'form': form,
-#     }
-#     return render(request, 'accounts/signup.html', context)
+
+@login_required
+@require_http_methods(['GET', 'POST'])
+def change_password(request):
+    if request.method == 'POST':
+        form = PasswordChangeForm(request.user, request.POST)
+        if form.is_valid():
+            user = form.save()
+            update_session_auth_hash(request, user)
+            return redirect('articles:index')
+    else:
+        form = PasswordChangeForm(request.user)
+    context = {
+        'form': form,
+    }
+    return render(request, 'accounts/change_password.html', context)
