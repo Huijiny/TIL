@@ -1,6 +1,7 @@
 from django.contrib.auth.decorators import login_required
 from django.shortcuts import render, redirect, get_object_or_404
 from django.views.decorators.http import require_safe, require_http_methods, require_POST, require_GET
+from django.http import HttpResponse
 from .models import Article, Comment
 from .forms import ArticleForm, CommentForm
 
@@ -71,22 +72,26 @@ def update(request, pk):
 
 @require_POST
 def comments_create(request, pk):
-    article = get_object_or_404(Article, pk=pk)
-    comment_form = CommentForm(request.POST)
-    if comment_form.is_valid():
-        comment = comment_form.save(commit=False)
-        comment.article = article
-        comment.save()
-        return redirect('articles:detail', article.pk)
-    context = {
-        'comment_form': comment_form,
-        'article': article,
-    }
-    return render(request, 'articles/detail', context)
+    if request.user.is_authenticated:
+        article = get_object_or_404(Article, pk=pk)
+        comment_form = CommentForm(request.POST)
+        if comment_form.is_valid():
+            comment = comment_form.save(commit=False)
+            comment.article = article
+            comment.save()
+            return redirect('articles:detail', article.pk)
+        context = {
+            'comment_form': comment_form,
+            'article': article,
+        }
+        return render(request, 'articles/detail', context)
+    return HttpResponse(status=401)
 
 
 @require_POST
 def comments_delete(request, article_pk, comment_pk):
-    comment = get_object_or_404(Comment, pk=comment_pk)
-    comment.delete() 
-    return redirect('articles:detail', article_pk)
+    if request.user.is_authenticated:
+        comment = get_object_or_404(Comment, pk=comment_pk)
+        comment.delete() 
+        return redirect('articles:detail', article_pk)
+    return HttpResponse(status=401)

@@ -2,17 +2,16 @@
 
 {% block content %}
   <h2>DETAIL</h2>
-  <h3>{{ article.pk }}번째 글</h3>
   <hr>
-  <p>제목: {{ article.title }}</p>
-  <p>내용: {{ article.content }}</p>
-  <p>작성시각: {{ article.created_at }}</p>
-  <p>수정시각: {{ article.updated_at }}</p>
+  <h1>{{ article.title }}</h1>
+  <p>{{ article.content }}</p>
+  <p>작성일: {{ article.created_at }}</p>
+  <p>수정일: {{ article.updated_at }}</p>
   <hr>
-  <a href="{% url 'articles:edit' article.pk %}" class="btn btn-primary">[EDIT]</a>
+  <a href="{% url 'articles:edit' article.pk %}">[EDIT]</a>
   <form action="{% url 'articles:delete' article.pk %}" method="POST">
     {% csrf_token %}
-    <button class="btn btn-danger">DELETE</button>
+    <input type="button" value="DELETE">
   </form>
   <a href="{% url 'articles:index' %}">[back]</a>
 {% endblock content %}

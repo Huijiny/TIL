@@ -32,7 +32,7 @@ def lotto(request):
 
     lotto_number = [ response.get('drwtNo'+str(i)) for i in range(1, 7)]
     bonus = response.get('bnusNo')
-    
+
     random_people = [random.sample(range(1, 45), 7) for _ in range(1000)]
     
     winner = check_winner(random_people, lotto_number, bonus)

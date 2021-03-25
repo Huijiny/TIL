@@ -15,7 +15,9 @@
     <button class="btn btn-danger">DELETE</button>
   </form>
   <a href="{% url 'articles:index' %}">[back]</a>
+  <hr>
   <h4>Comments</h4>
+  {{ comments|length }}개의 댓글이 있습니다.
   <ul>
     {% for comment in comments %}
       <li>
