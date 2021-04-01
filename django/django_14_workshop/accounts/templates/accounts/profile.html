@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+{% block content %}
+<h1>
+  {{ person.username }}'s profile 
+</h1>
+<div>
+  <p>following: {{ person.follwings.all|length }} / followers: {{ person.followers.all|length }}</p>
+  {% if request.user != person %}
+    <div>
+      <form action="{% url 'accounts:follow' person.username %}" method="POST">
+        {% csrf_token %}
+        {% if request.user in person.followers.all %}
+          <button>Unfollow</button>
+        {% else %}
+          <button>Follow</button>
+        {% endif %}
+      </form>
+    </div>
+  {% endif %}
+</div>
+<hr>
+<h3>Content</h3>
+{% for article in person.article_set.all %}
+  <h4>{{ article.title }}</h4>
+  <p>{{ article.like_users.all|length }}명이 이 글을 좋아합니다.</p>
+  <hr>
+{% endfor %}
+{% endblock content %}
