@@ -1,23 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="a7c8f63c-488c-40c8-b828-c53112518bb1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/1231_중위순회/sol2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5174_subtree/sol2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boj_1074_Z/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boj_1074_Z/sol.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/merge_sort/merge_sort.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/merge_sort/merge_sort.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/과목평가7/mergesort.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/과목평가7/문제1/Algo1_서울_4반_유희진.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/과목평가7/문제1/문제1_input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/과목평가7/문제1/문제1_output.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/과목평가7/문제2/sol.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/과목평가7/문제2/문제2_input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/과목평가7/문제2/문제2_output.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/과목평가7/문제3/sol.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/과목평가7/문제3/문제3_input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/과목평가7/문제3/문제3_output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1240_단순2진암호코드/input (4).txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1240_단순2진암호코드/sol.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5185 이진수/sample_input (3).txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5185 이진수/sol.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -116,14 +107,14 @@
       <recent name="Z:\Desktop\ssafy\TIL\algorithm" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/1240_단순2진암호코드" />
       <recent name="$PROJECT_DIR$/과목평가7/문제3" />
       <recent name="$PROJECT_DIR$/과목평가7/문제2" />
       <recent name="$PROJECT_DIR$/과목평가7/문제1" />
       <recent name="$PROJECT_DIR$/1232_사칙연산 " />
-      <recent name="$PROJECT_DIR$/5178_노드의합" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Algo3_서울_4반_유희진">
+  <component name="RunManager" selected="Python.sol">
     <configuration name="Algo1_서울_4반_유희진" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -187,7 +178,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="sol2 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="sol (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -195,32 +186,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1231_중위순회" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1240_단순2진암호코드" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1231_중위순회/sol2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="sol2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/5174_subtree" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/5174_subtree/sol2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1240_단순2진암호코드/sol.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -237,11 +207,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/과목평가7/문제2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/5185 이진수" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/과목평가7/문제2/sol.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/5185 이진수/sol.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -251,19 +221,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.sol2" />
-      <item itemvalue="Python.sol2 (1)" />
       <item itemvalue="Python.Algo1_서울_4반_유희진" />
       <item itemvalue="Python.Algo2_서울_4반_유희진" />
       <item itemvalue="Python.Algo3_서울_4반_유희진" />
+      <item itemvalue="Python.sol (1)" />
+      <item itemvalue="Python.sol" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.sol" />
+        <item itemvalue="Python.sol (1)" />
         <item itemvalue="Python.Algo3_서울_4반_유희진" />
         <item itemvalue="Python.Algo2_서울_4반_유희진" />
         <item itemvalue="Python.Algo1_서울_4반_유희진" />
-        <item itemvalue="Python.sol2 (1)" />
-        <item itemvalue="Python.sol2" />
       </list>
     </recent_temporary>
   </component>
