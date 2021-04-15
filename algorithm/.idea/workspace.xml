@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a7c8f63c-488c-40c8-b828-c53112518bb1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/5189_전자카트/sample_input (3).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5189_전자카트/sol.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5201_컨테이너운반/sample_input (3).txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5201_컨테이너운반/sol.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -105,35 +105,14 @@
       <recent name="Z:\Desktop\ssafy\TIL\algorithm" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/5201_컨테이너운반" />
       <recent name="$PROJECT_DIR$/5189_전자카트" />
       <recent name="$PROJECT_DIR$/5188_최소합" />
       <recent name="$PROJECT_DIR$/1244_최대상금" />
       <recent name="$PROJECT_DIR$/1242_암호코드스캔" />
-      <recent name="$PROJECT_DIR$/3725_가능한시험점수" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.sol (3)">
-    <configuration name="comb" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/combination" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/combination/comb.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.sol (4)">
     <configuration name="sol (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -197,6 +176,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="sol (4)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/5201_컨테이너운반" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/5201_컨테이너운반/sol.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="sol" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -220,18 +220,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.sol (1)" />
-      <item itemvalue="Python.comb" />
       <item itemvalue="Python.sol" />
       <item itemvalue="Python.sol (2)" />
       <item itemvalue="Python.sol (3)" />
+      <item itemvalue="Python.sol (4)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.sol (4)" />
         <item itemvalue="Python.sol (3)" />
         <item itemvalue="Python.sol (2)" />
         <item itemvalue="Python.sol (1)" />
         <item itemvalue="Python.sol" />
-        <item itemvalue="Python.comb" />
       </list>
     </recent_temporary>
   </component>
@@ -296,11 +296,6 @@
           <url>file://$PROJECT_DIR$/2001_파리퇴치/sol.py</url>
           <line>18</line>
           <option name="timeStamp" value="43" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/5189_전자카트/sol.py</url>
-          <line>7</line>
-          <option name="timeStamp" value="47" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
