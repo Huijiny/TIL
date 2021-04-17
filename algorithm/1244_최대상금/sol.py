@@ -3,30 +3,32 @@ sys.stdin = open("input (4).txt")
 
 def search(count):
     global max_val
-    if count == 0:
-        val = int(''.join(numbers))
-        already[val] = True
-        if val > max_val:
-            max_val = val
+    value = int(''.join(numbers))
+    if value in visited[count]:
         return
+    visited[count].add(value)
 
-    for i in range(len(numbers)):
-        for j in range(i+1, len(numbers)):
-            numbers[i], numbers[j] = numbers[j], numbers[i]
-            val = int(''.join(numbers))
-            if not already[val]:
-                search(count-1)
-            numbers[i], numbers[j] = numbers[j], numbers[i]
-
+    if count == 0:
+        visited[count].add(value)
+        max_val = max(max_val, value)
+        return
+    else:
+        for i in range(N - 1):
+            for j in range(i + 1, N):
+                # 스왑
+                numbers[i], numbers[j] = numbers[j], numbers[i]
+                search(count - 1)
+                numbers[i], numbers[j] = numbers[j], numbers[i]
 
 T = int(input())
 for tc in range(1, T+1):
     max_val = 0
     numbers, count = input().split()
     numbers = list(numbers)
-    already = [False] * 999999
+    N = len(numbers)
     count = int(count)
+    visited = [set() for _ in range(11)]
     search(count)
-    print("#{} {}".format(tc, max_val))
+    print("#{} {}".format(tc,max_val))
 
 
