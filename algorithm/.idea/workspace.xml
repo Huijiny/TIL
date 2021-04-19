@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a7c8f63c-488c-40c8-b828-c53112518bb1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/5207_binary_search/sample_input (3).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5207_binary_search/sol.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5205_퀵정렬/sample_input (3).txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5205_퀵정렬/sol.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/powersell/bit.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/5204_병합정렬/sol.py" beforeDir="false" afterPath="$PROJECT_DIR$/5204_병합정렬/sol.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,14 +107,35 @@
       <recent name="Z:\Desktop\ssafy\TIL\algorithm" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/5205_퀵정렬" />
       <recent name="$PROJECT_DIR$/5207_binary_search" />
       <recent name="$PROJECT_DIR$/5204_병합정렬" />
       <recent name="$PROJECT_DIR$/5203_베이비진게임" />
       <recent name="$PROJECT_DIR$/5202_화물도크" />
-      <recent name="$PROJECT_DIR$/5201_컨테이너운반" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.sol (2)">
+  <component name="RunManager" selected="Python.sol (4)">
+    <configuration name="bit" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/powersell" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/powersell/bit.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="sol (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -155,7 +178,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="sol (3)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="sol (4)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -163,11 +186,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1244_최대상금" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/5205_퀵정렬" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1244_최대상금/sol.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/5205_퀵정렬/sol.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -184,32 +207,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/5203_베이비진게임" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/부분집합" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/5203_베이비진게임/sol.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="sol2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1244_최대상금" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1244_최대상금/sol2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/부분집합/sol.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -219,19 +221,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.sol" />
-      <item itemvalue="Python.sol (3)" />
-      <item itemvalue="Python.sol2" />
       <item itemvalue="Python.sol (1)" />
       <item itemvalue="Python.sol (2)" />
+      <item itemvalue="Python.sol (4)" />
+      <item itemvalue="Python.sol" />
+      <item itemvalue="Python.bit" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.sol (2)" />
-        <item itemvalue="Python.sol (1)" />
-        <item itemvalue="Python.sol2" />
-        <item itemvalue="Python.sol (3)" />
+        <item itemvalue="Python.sol (4)" />
+        <item itemvalue="Python.bit" />
         <item itemvalue="Python.sol" />
+        <item itemvalue="Python.sol (1)" />
+        <item itemvalue="Python.sol (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -299,12 +301,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/5204_병합정렬/sol.py</url>
-          <line>12</line>
+          <line>13</line>
           <option name="timeStamp" value="44" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/5204_병합정렬/sol.py</url>
-          <line>25</line>
+          <line>29</line>
           <option name="timeStamp" value="45" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
