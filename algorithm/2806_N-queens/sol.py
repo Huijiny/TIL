@@ -15,7 +15,7 @@ def n_queens(row):
         count += 1
     else:
         for col in range(N):
-            # 같은 열에 다른 퀸이 존재하는지 체크
+            # 같은 열에 다른 퀸이 존재하는지 체크 및 대각선 체크
             if not visited[col] and not is_exist_diagnal((col, row)):
                 visited[col] = True
                 queens.append((col, row))
