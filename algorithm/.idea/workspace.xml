@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a7c8f63c-488c-40c8-b828-c53112518bb1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/5247_연산/sample_input (5).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5247_연산/sol.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5248_그룹나누기/sample_input (5).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5248_그룹나누기/sol.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5251_최소이동거리/sample_input (5).txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5251_최소이동거리/sol.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -107,15 +105,15 @@
       <recent name="Z:\Desktop\ssafy\TIL\algorithm" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/5251_최소이동거리" />
       <recent name="$PROJECT_DIR$/5248_그룹나누기" />
       <recent name="$PROJECT_DIR$/5247_연산" />
       <recent name="$PROJECT_DIR$/1865_동철이의일분배" />
       <recent name="$PROJECT_DIR$/2806_N-queens" />
-      <recent name="$PROJECT_DIR$/5209_최소생산비용" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.sol (3)">
-    <configuration name="sol (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.sol (2)">
+    <configuration name="sol (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -123,11 +121,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2806_N-queens" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/5251_최소이동거리" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2806_N-queens/sol.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/5251_최소이동거리/sol.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -221,19 +219,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.sol (1)" />
       <item itemvalue="Python.sol" />
       <item itemvalue="Python.sol2" />
       <item itemvalue="Python.sol (4)" />
       <item itemvalue="Python.sol (3)" />
+      <item itemvalue="Python.sol (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.sol (2)" />
         <item itemvalue="Python.sol (3)" />
         <item itemvalue="Python.sol (4)" />
         <item itemvalue="Python.sol2" />
         <item itemvalue="Python.sol" />
-        <item itemvalue="Python.sol (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -333,6 +331,8 @@
         <watch expression="visited" language="Python" />
         <watch expression="sum_" language="Python" />
         <watch expression="max_p" language="Python" />
+        <watch expression="graph" language="Python" />
+        <watch expression="distance" language="Python" />
       </configuration>
     </watches-manager>
   </component>
