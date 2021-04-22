@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a7c8f63c-488c-40c8-b828-c53112518bb1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/5249_최소신장트리/sample_input (5).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5249_최소신장트리/sol.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/5247_연산/sol.py" beforeDir="false" afterPath="$PROJECT_DIR$/5247_연산/sol.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +111,7 @@
       <recent name="$PROJECT_DIR$/5247_연산" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.sol">
+  <component name="RunManager" selected="Python.sol (4)">
     <configuration name="sol (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -227,11 +226,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.sol (4)" />
         <item itemvalue="Python.sol" />
         <item itemvalue="Python.sol (1)" />
         <item itemvalue="Python.sol (2)" />
         <item itemvalue="Python.sol (3)" />
-        <item itemvalue="Python.sol (4)" />
       </list>
     </recent_temporary>
   </component>

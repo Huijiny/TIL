@@ -33,5 +33,5 @@ T = int(input())
 
 for tc in range(1, T+1):
     N, M = map(int, input().split())
-    num_visited = [False] * 1000000
+    num_visited = [False] * 1000001
     print("#{} {}".format(tc, bfs(N)))
