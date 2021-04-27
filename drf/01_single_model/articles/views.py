@@ -14,13 +14,25 @@ def article_list(request):
         return Response(serializer.data)
     elif request.method == 'POST':
         serializer = ArticleListSerializer(data=request.data)
-        if serializer.is_valid():
+        if serializer.is_valid(raise_exception=True):
             serializer.save()
             return Response(serializer.data, status=status.HTTP_201_CREATED)
-        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+        # return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
-@api_view(['GET'])
+@api_view(['GET', 'DELETE', 'PUT'])
 def article_detail(request, article_pk):
     article = get_object_or_404(Article, pk=article_pk)
-    serializer = ArticleSerializer(article)
-    return Response(serializer.data)
+    if request.method == 'GET':
+        serializer = ArticleSerializer(article)
+        return Response(serializer.data)
+    elif request.method == 'DELETE':
+        article.delete()
+        data = {
+            'delete': f'데이터 {article_pk}번 글이 삭제되었습니다.',
+        }
+        return Response(data, status=status.HTTP_204_NO_CONTENT)
+    elif request.method == 'PUT':
+        serializer = ArticleSerializer(instance=article, data=request.data)
+        if serializer.is_valid(raise_exception=True):
+            serializer.save()
+            return Response(serializer.data, status=status.HTTP_200_OK)
