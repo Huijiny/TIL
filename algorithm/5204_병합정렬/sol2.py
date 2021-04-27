@@ -1,0 +1,41 @@
+import sys
+sys.stdin = open('sample_input (3).txt')
+
+def merge_sort(lst):
+    global count
+    if len(lst) < 2:
+        return lst
+
+    mid = len(lst) // 2
+    left_lst = lst[:mid]
+    right_lst = lst[mid:]
+
+    sorted_left = merge_sort(left_lst)
+    sorted_right = merge_sort(right_lst)
+
+    l = r = 0
+    sorted_lst = []
+    if sorted_left[-1] > sorted_right[-1]:
+        count += 1
+
+    while l < len(sorted_left) and r < len(sorted_right):
+        if sorted_left[l] < sorted_right[r]:
+            sorted_lst.append(sorted_left[l])
+            l += 1
+        else:
+            sorted_lst.append(sorted_right[r])
+            r += 1
+
+    sorted_lst += sorted_left[l:]
+    sorted_lst += sorted_right[r:]
+
+    return sorted_lst
+
+T = int(input())
+
+for tc in range(1, T+1):
+    n = int(input())
+    count = 0
+    nums = list(map(int, input().split()))
+    print(merge_sort(nums))
+    print("#{} {} {}".format(tc, merge_sort(nums)[n//2], count))

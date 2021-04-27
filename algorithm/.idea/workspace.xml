@@ -5,9 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a7c8f63c-488c-40c8-b828-c53112518bb1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/5250_최소비용/sol2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5251_최소이동거리/sol2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5204_병합정렬/sol2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5205_퀵정렬/sol3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5207_binary_search/sol2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5251_최소이동거리/sol3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/월말평가 4/1/문제1_input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/월말평가 4/2/문제2_input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/월말평가 4/3/문제3_input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/월말평가 4/Algo4_서울_4반_유희진.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/5249_최소신장트리/sol.py" beforeDir="false" afterPath="$PROJECT_DIR$/5249_최소신장트리/sol.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/5251_최소이동거리/sol2.py" beforeDir="false" afterPath="$PROJECT_DIR$/5251_최소이동거리/sol2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/powersell/bit.py" beforeDir="false" afterPath="$PROJECT_DIR$/powersell/bit.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,6 +105,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/과목평가7/문제3" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -105,15 +115,15 @@
       <recent name="Z:\Desktop\ssafy\TIL\algorithm" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/월말평가 4/3" />
+      <recent name="$PROJECT_DIR$/월말평가 4/2" />
+      <recent name="$PROJECT_DIR$/월말평가 4/1" />
       <recent name="$PROJECT_DIR$/1251_하나로" />
       <recent name="$PROJECT_DIR$/5249_최소신장트리" />
-      <recent name="$PROJECT_DIR$/5250_최소비용" />
-      <recent name="$PROJECT_DIR$/5251_최소이동거리" />
-      <recent name="$PROJECT_DIR$/5248_그룹나누기" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.sol2 (2)">
-    <configuration name="sol (4)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.Algo3_서울_4반_유희진">
+    <configuration name="Algo1_서울_4반_유희진" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -121,11 +131,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/5247_연산" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/월말평가 4/1" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/5247_연산/sol.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/월말평가 4/1/Algo1_서울_4반_유희진.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -134,7 +144,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="sol (5)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Algo2_서울_4반_유희진" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -142,11 +152,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1251_하나로" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/월말평가 4/2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1251_하나로/sol.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/월말평가 4/2/Algo2_서울_4반_유희진.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -155,7 +165,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="sol2 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Algo3_서울_4반_유희진" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -163,11 +173,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/5250_최소비용" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/월말평가 4/3" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/5250_최소비용/sol2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/월말평가 4/3/Algo3_서울_4반_유희진.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -176,7 +186,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="sol2 (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Algo4_서울_4반_유희진" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -184,11 +194,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/5251_최소이동거리" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/월말평가 4" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/5251_최소이동거리/sol2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/월말평가 4/Algo4_서울_4반_유희진.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -197,7 +207,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="sol2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="sol3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -205,11 +215,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1251_하나로" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/5205_퀵정렬" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1251_하나로/sol2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/5205_퀵정렬/sol3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -219,19 +229,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.sol (4)" />
-      <item itemvalue="Python.sol (5)" />
-      <item itemvalue="Python.sol2" />
-      <item itemvalue="Python.sol2 (1)" />
-      <item itemvalue="Python.sol2 (2)" />
+      <item itemvalue="Python.sol3" />
+      <item itemvalue="Python.Algo2_서울_4반_유희진" />
+      <item itemvalue="Python.Algo1_서울_4반_유희진" />
+      <item itemvalue="Python.Algo4_서울_4반_유희진" />
+      <item itemvalue="Python.Algo3_서울_4반_유희진" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.sol2 (2)" />
-        <item itemvalue="Python.sol2 (1)" />
-        <item itemvalue="Python.sol2" />
-        <item itemvalue="Python.sol (5)" />
-        <item itemvalue="Python.sol (4)" />
+        <item itemvalue="Python.Algo3_서울_4반_유희진" />
+        <item itemvalue="Python.Algo4_서울_4반_유희진" />
+        <item itemvalue="Python.Algo1_서울_4반_유희진" />
+        <item itemvalue="Python.Algo2_서울_4반_유희진" />
+        <item itemvalue="Python.sol3" />
       </list>
     </recent_temporary>
   </component>
@@ -303,11 +313,6 @@
           <option name="timeStamp" value="44" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/5207_binary_search/sol.py</url>
-          <line>25</line>
-          <option name="timeStamp" value="47" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/5208_전기버스2/sol.py</url>
           <line>16</line>
           <option name="timeStamp" value="49" />
@@ -318,9 +323,8 @@
           <option name="timeStamp" value="50" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/5250_최소비용/sol.py</url>
-          <line>21</line>
-          <option name="timeStamp" value="57" />
+          <url>file://$PROJECT_DIR$/5251_최소이동거리/sol3.py</url>
+          <option name="timeStamp" value="54" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>

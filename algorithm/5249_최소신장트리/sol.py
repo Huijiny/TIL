@@ -27,3 +27,25 @@ for tc in range(1, T+1):
             union(x, y)
             total += w
     print("#{} {}".format(tc, total))
+
+def find(x):
+    if p[x] == x:
+        return x
+    return find(p[x])
+
+
+def union(x, y):
+    x = find(x)
+    y = find(y)
+    p[y] = x
+
+for tc in range(1, T+1):
+    V, E = map(int, input().split())
+    weights = [list(map(int, input().split())) for _ in range(E)]
+    p = [i for i in range(V + 1)]
+    total = 0
+    weights.sort(key=lambda x:x[2])
+    for x, y, w in weights:
+        if find(x) != find(y):
+            union(x, y)
+            total += w

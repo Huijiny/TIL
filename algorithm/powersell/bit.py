@@ -24,3 +24,13 @@ def powerset(n, depth):
 setA = [0] * len(A)
 powerset(len(A), 0)
 
+def bit1():
+    for i in range(1 << len(A)):
+        for j in range(len(A)):
+            if i & (1 << j):
+                print(A[j], end=' ')
+        print()
+
+bit1()
+
+

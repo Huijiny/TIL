@@ -15,7 +15,6 @@ def dijkstra(start):
                 distance[end_node] = next_weight
                 heapq.heappush(q, (next_weight, end_node))
 
-
 T = int(input())
 
 for tc in range(1, T+1):
