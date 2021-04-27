@@ -5,6 +5,7 @@ from django.shortcuts import render, get_object_or_404, get_list_or_404
 from .models import Article, Comment
 from .serializers import ArticleListSerializer, ArticleSerializer, CommentListSerializer
 
+
 # Create your views here.
 @api_view(['GET', 'POST'])
 def article_list(request):
@@ -18,6 +19,7 @@ def article_list(request):
             serializer.save()
             return Response(serializer.data, status=status.HTTP_201_CREATED)
         # return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+
 
 @api_view(['GET', 'DELETE', 'PUT'])
 def article_detail(request, article_pk):
@@ -45,8 +47,31 @@ def comment_list(request):
     return Response(serializer.data)
 
 
-@api_view(['GET'])
+@api_view(['GET', 'DELETE', 'PUT'])
 def comment_detail(request, comment_pk):
     comment = get_object_or_404(Comment, pk=comment_pk)
-    serializer = CommentListSerializer(comment)
-    return Response(serializer.data)
+    if request.method == 'GET':
+        serializer = CommentListSerializer(comment)
+        return Response(serializer.data)
+    elif request.method == 'DELETE':
+        comment.delete()
+        data = {
+            'delete': f'댓글 { comment_pk }이 삭제되었습니다.',
+        }
+        return Response(data, status=status.HTTP_204_NO_CONTENT)
+    elif request.method == 'PUT':
+        serializer = CommentListSerializer(comment, data=request.data)
+        if serializer.is_valid(raise_exception=True):
+            serializer.save()
+            return Response(serializer.data)
+
+
+
+@api_view(['POST'])
+def comment_create(request, article_pk):
+    article = get_object_or_404(Article, pk=article_pk)
+    serializer = CommentListSerializer(data=request.data)
+    if serializer.is_valid(raise_exception=True):
+        serializer.save(article=article)
+        return Response(serializer.data, status=status.HTTP_201_CREATED)
+        
