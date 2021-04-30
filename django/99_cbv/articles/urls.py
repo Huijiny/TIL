@@ -1,8 +1,14 @@
 from django.urls import path
 from django.views.generic import TemplateView
 from . import views
-from .views import AboutView, IndexView, ArticleListView, ArticleDetailView
-
+from .views import (AboutView,
+                    IndexView, 
+                    ArticleListView, 
+                    ArticleDetailView,
+                    ArticleCreateView,
+                    ArticleUpdateView,
+                    ArticleDeleteView
+)
 app_name = 'articles'
 
 urlpatterns = [
@@ -13,4 +19,7 @@ urlpatterns = [
     # -- 
     path('', ArticleListView.as_view(), name='index'),
     path('<int:pk>/', ArticleDetailView.as_view(), name='detail'),
+    path('create/', ArticleCreateView.as_view(), name='create'),
+    path('<int:pk>/update/',ArticleUpdateView.as_view(), name='update'),
+    path('<int:pk>/delete/', ArticleDeleteView.as_view(), name='delete'),
 ]
