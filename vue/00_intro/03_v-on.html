@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div id="app">
+    <!-- 메서드 핸들러 -->
+    <button v-on:click="doThis">버튼</button>
+    <button @click="doThis">버튼</button>
+    
+    <!-- 기본 동작 방지 -->
+    <form @submit.prevent action="/articles/">
+      <button>버튼</button>
+    </form>
+    <!-- 키 별칭을 이용한 키 입력 수식어 -->    
+
+    <input type="text" @keyup.enter="onInputError">
+    <input type="text" @keyup.enter="onInputError('ssafy')">
+
+    {{ message }}
+    <button @click="changeMessage">버튼</button>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script>
+    const app = new Vue({
+      el: '#app',
+      data: {
+        message: 'Hello vuejs'
+      },
+      methods: {
+        doThis: function () {
+          alert('hello')
+        },
+        changeMessage: function () {
+          this.$data.message = 'New hello vuejs'
+        },
+        onInputError: function (inputValue) {
+          console.log('Enter!!')
+          console.log(inputValue)
+        },
+      }
+    })
+  </script>
+</body>
+</html>
