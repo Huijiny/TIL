@@ -5,7 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a7c8f63c-488c-40c8-b828-c53112518bb1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/0608_algorithm_디버깅특강/03.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0609_알고리즘특강/4317_칩생산/sample_sample_input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0609_알고리즘특강/4317_칩생산/sol.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0609_알고리즘특강/4335_무인도탈출/sample_sample_input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0609_알고리즘특강/4335_무인도탈출/sol.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0609_알고리즘특강/4340_파이프연결/sample_sample_input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0609_알고리즘특강/4340_파이프연결/sol.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0609_알고리즘특강/마리오/sol.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0609_알고리즘특강/마법양탄자/sol.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -105,15 +112,15 @@
       <recent name="Z:\Desktop\ssafy\TIL\algorithm" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/0609_알고리즘특강/4340_파이프연결" />
+      <recent name="$PROJECT_DIR$/0609_알고리즘특강/4317_칩생산" />
+      <recent name="$PROJECT_DIR$/0609_알고리즘특강/4335_무인도탈출" />
       <recent name="$PROJECT_DIR$/0608_algorithm_디버깅특강" />
       <recent name="$PROJECT_DIR$/화성탐사" />
-      <recent name="$PROJECT_DIR$/사슴사냥대회" />
-      <recent name="$PROJECT_DIR$/월말평가 4/3" />
-      <recent name="$PROJECT_DIR$/월말평가 4/2" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.03">
-    <configuration name="03" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.sol (4)">
+    <configuration name="sol (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -121,11 +128,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/0608_algorithm_디버깅특강" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/0609_알고리즘특강/4317_칩생산" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/0608_algorithm_디버깅특강/03.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/0609_알고리즘특강/4317_칩생산/sol.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -134,7 +141,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="sol (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -142,11 +149,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/사슴사냥대회" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/0609_알고리즘특강/4340_파이프연결" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/사슴사냥대회/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/0609_알고리즘특강/4340_파이프연결/sol.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -155,7 +162,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="solution" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="sol (3)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -163,11 +170,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/화성탐사" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/0609_알고리즘특강/마리오" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/화성탐사/solution.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/0609_알고리즘특강/마리오/sol.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -176,7 +183,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="sol (4)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -184,11 +191,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/화성탐사" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/0609_알고리즘특강/마법양탄자" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/0608_algorithm_디버깅특강/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/0609_알고리즘특강/마법양탄자/sol.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sol" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/0609_알고리즘특강/4335_무인도탈출" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/0609_알고리즘특강/4335_무인도탈출/sol.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -218,41 +246,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="testcase_generator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/화성탐사" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/화성탐사/testcase_generator.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Python.test" />
-      <item itemvalue="Python.main" />
-      <item itemvalue="Python.testcase_generator" />
-      <item itemvalue="Python.solution" />
-      <item itemvalue="Python.03" />
+      <item itemvalue="Python.sol" />
+      <item itemvalue="Python.sol (1)" />
+      <item itemvalue="Python.sol (2)" />
+      <item itemvalue="Python.sol (3)" />
+      <item itemvalue="Python.sol (4)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.03" />
-        <item itemvalue="Python.solution" />
-        <item itemvalue="Python.testcase_generator" />
-        <item itemvalue="Python.main" />
-        <item itemvalue="Python.test" />
+        <item itemvalue="Python.sol (4)" />
+        <item itemvalue="Python.sol (3)" />
+        <item itemvalue="Python.sol (2)" />
+        <item itemvalue="Python.sol (1)" />
+        <item itemvalue="Python.sol" />
       </list>
     </recent_temporary>
   </component>
@@ -348,11 +355,9 @@
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
-        <watch expression="visited" language="Python" />
-        <watch expression="sum_" language="Python" />
-        <watch expression="max_p" language="Python" />
-        <watch expression="graph" language="Python" />
-        <watch expression="distance" language="Python" />
+        <watch expression="boxes" language="Python" />
+        <watch expression="bs" language="Python" />
+        <watch expression="boxess" language="Python" />
       </configuration>
     </watches-manager>
   </component>
