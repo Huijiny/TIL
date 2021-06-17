@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a7c8f63c-488c-40c8-b828-c53112518bb1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/16198_에너지모으기/sample" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/16198_에너지모으기/sol.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1342_행운의 문자열/sample.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1342_행운의 문자열/sol.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -113,7 +113,7 @@
       <recent name="$PROJECT_DIR$/0609_알고리즘특강/4335_무인도탈출" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.sol (3)">
+  <component name="RunManager" selected="Python.sol (4)">
     <configuration name="sol (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -177,7 +177,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="sol (5)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="sol (4)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -185,11 +185,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/0611_알고리즘문제만들기_우수풀이/단식원" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1342_행운의 문자열" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/0611_알고리즘문제만들기_우수풀이/단식원/sol.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1342_행운의 문자열/sol.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -220,19 +220,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.sol (5)" />
       <item itemvalue="Python.sol" />
       <item itemvalue="Python.sol (1)" />
       <item itemvalue="Python.sol (2)" />
       <item itemvalue="Python.sol (3)" />
+      <item itemvalue="Python.sol (4)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.sol (4)" />
         <item itemvalue="Python.sol (3)" />
         <item itemvalue="Python.sol (2)" />
         <item itemvalue="Python.sol (1)" />
         <item itemvalue="Python.sol" />
-        <item itemvalue="Python.sol (5)" />
       </list>
     </recent_temporary>
   </component>
