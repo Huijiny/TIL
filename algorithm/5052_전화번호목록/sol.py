@@ -18,5 +18,6 @@ for _ in range(T):
 
     if flag:
         print("YES")
+
     else:
         print("NO")
